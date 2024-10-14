@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 15s  # Tempo entre cada coleta de métricas
+  evaluation_interval: 15s  # Tempo entre cada avaliação de regras
+
+scrape_configs:
+  - job_name: 'app-monitoring'  # Nome do job de monitoramento
+    static_configs:
+      - targets: ['api-data:8000']  # Alvo (serviço) a ser monitorado
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']  # Monitorando o próprio Prometheus

@@ -1,0 +1,11 @@
+SQLAlchemy==2.0.32
+psycopg2-binary
+pandas==2.2.2
+ydata-profiling
+ipywidgets
+category_encoders 
+scikit-learn 
+matplotlib 
+seaborn 
+imblearn 
+powershap

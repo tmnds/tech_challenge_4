@@ -1,0 +1,32 @@
+services:
+  api-data:
+    build:
+      context: ./
+      dockerfile: ./src/Dockerfile
+    container_name: fastapi-app
+    volumes:
+      - ./src/:/app
+    ports:
+      - 8000:8000  # Mapeia a porta 8000 no host para o FastAPI
+    depends_on:
+      - prometheus
+    networks:
+      - webnet
+
+prometheus:
+  image: prom/prometheus:latest
+  ports:
+    - 9090:9090
+  volumes:
+    - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  jupyter:
+    build: 
+      context: ./
+      dockerfile: ./training_model/Dockerfile
+    volumes:
+      - ./training_model:/home/jovyan/training_model
+    ports:
+      - 8888:8888
+    container_name: jupyter_notebook
+    command: "start-notebook.sh --NotebookApp.token="
