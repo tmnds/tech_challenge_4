@@ -49,3 +49,4 @@ watchfiles==0.21.0
 websockets==12.0
 psycopg2-binary
 prometheus_fastapi_instrumentator==7.0.0
+prometheus-client
