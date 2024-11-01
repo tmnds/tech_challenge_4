@@ -5,3 +5,4 @@ venv*
 *.log
 .venv
 mlruns
+mlartifacts
