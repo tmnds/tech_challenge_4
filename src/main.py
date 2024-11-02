@@ -30,9 +30,9 @@ app = FastAPI()
 
 # Prometheus metrics for performance monitoring
 response_time_histogram = Histogram(
-    "predict_response_time_milliseconds",
-    "Response time for predict endpoint in milliseconds",
-    buckets=[10, 50, 100, 200, 500, 1000, 2000, 5000]  # Adjust these buckets as needed
+    "predict_response_time_seconds",
+    "Response time for predict endpoint in seconds",
+    buckets=[0.1,0.3,0.6,0.9,1.2]  # Adjust these buckets as needed
 )
 cpu_usage_gauge = Gauge("cpu_usage_percent", "CPU usage percentage")
 memory_usage_gauge = Gauge("memory_usage_percent", "Memory usage percentage")
@@ -74,8 +74,8 @@ async def predict(request: Request):
     # prediction = model_pipeline.predict(df)
     
     # Calculate response time in milliseconds and observe it in the histogram
-    response_time_ms = (time.time() - start_time) * 1000
-    response_time_histogram.observe(response_time_ms)
+    response_time_s = (time.time() - start_time)
+    response_time_histogram.observe(response_time_s)
 
     # return {"prediction": prediction[0]}
     return {"prediction": 0.5}
