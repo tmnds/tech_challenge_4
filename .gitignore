@@ -3,5 +3,5 @@ __pycache__/
 *pytest_cache*
 venv*
 *.log
-.venv
+.venv*
 mlruns
