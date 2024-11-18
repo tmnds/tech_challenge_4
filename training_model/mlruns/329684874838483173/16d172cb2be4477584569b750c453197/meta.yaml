@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/16d172cb2be4477584569b750c453197/artifacts
+end_time: 1731858392528
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 16d172cb2be4477584569b750c453197
+run_name: dazzling-ray-51
+run_uuid: 16d172cb2be4477584569b750c453197
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731858346885
+status: 3
+tags: []
+user_id: Chrystian

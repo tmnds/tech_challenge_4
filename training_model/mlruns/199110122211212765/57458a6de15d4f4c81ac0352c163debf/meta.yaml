@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/57458a6de15d4f4c81ac0352c163debf/artifacts
+end_time: 1731893539888
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 57458a6de15d4f4c81ac0352c163debf
+run_name: enthused-foal-31
+run_uuid: 57458a6de15d4f4c81ac0352c163debf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731893467279
+status: 3
+tags: []
+user_id: Chrystian

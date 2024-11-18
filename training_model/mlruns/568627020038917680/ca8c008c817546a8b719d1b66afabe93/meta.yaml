@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/ca8c008c817546a8b719d1b66afabe93/artifacts
+end_time: 1731867023121
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: ca8c008c817546a8b719d1b66afabe93
+run_name: victorious-bass-614
+run_uuid: ca8c008c817546a8b719d1b66afabe93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731866971286
+status: 3
+tags: []
+user_id: Chrystian

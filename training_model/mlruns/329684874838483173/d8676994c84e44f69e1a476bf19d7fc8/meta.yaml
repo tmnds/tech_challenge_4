@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/d8676994c84e44f69e1a476bf19d7fc8/artifacts
+end_time: 1731857484326
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: d8676994c84e44f69e1a476bf19d7fc8
+run_name: stately-squid-632
+run_uuid: d8676994c84e44f69e1a476bf19d7fc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731857434793
+status: 3
+tags: []
+user_id: Chrystian

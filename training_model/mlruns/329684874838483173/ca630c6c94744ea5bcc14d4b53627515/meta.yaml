@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/ca630c6c94744ea5bcc14d4b53627515/artifacts
+end_time: 1731859299969
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: ca630c6c94744ea5bcc14d4b53627515
+run_name: masked-fox-55
+run_uuid: ca630c6c94744ea5bcc14d4b53627515
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859254252
+status: 3
+tags: []
+user_id: Chrystian

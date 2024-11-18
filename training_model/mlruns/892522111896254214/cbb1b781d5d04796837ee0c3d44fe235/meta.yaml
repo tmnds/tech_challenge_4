@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/cbb1b781d5d04796837ee0c3d44fe235/artifacts
+end_time: 1731881401747
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: cbb1b781d5d04796837ee0c3d44fe235
+run_name: defiant-shrew-19
+run_uuid: cbb1b781d5d04796837ee0c3d44fe235
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881368504
+status: 3
+tags: []
+user_id: Chrystian

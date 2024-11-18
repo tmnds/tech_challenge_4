@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/a3a40309fc204c94b67db532af0dc0ff/artifacts
+end_time: 1731867694792
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: a3a40309fc204c94b67db532af0dc0ff
+run_name: smiling-swan-142
+run_uuid: a3a40309fc204c94b67db532af0dc0ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731867643559
+status: 3
+tags: []
+user_id: Chrystian

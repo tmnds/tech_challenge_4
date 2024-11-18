@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/17d08f2327924142877eaf1ae160f221/artifacts
+end_time: 1731892605924
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 17d08f2327924142877eaf1ae160f221
+run_name: learned-ant-775
+run_uuid: 17d08f2327924142877eaf1ae160f221
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731892562809
+status: 3
+tags: []
+user_id: Chrystian

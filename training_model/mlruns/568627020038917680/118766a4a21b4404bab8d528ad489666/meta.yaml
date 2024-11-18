@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/118766a4a21b4404bab8d528ad489666/artifacts
+end_time: 1731867916028
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: 118766a4a21b4404bab8d528ad489666
+run_name: bustling-grouse-297
+run_uuid: 118766a4a21b4404bab8d528ad489666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731867864752
+status: 3
+tags: []
+user_id: Chrystian

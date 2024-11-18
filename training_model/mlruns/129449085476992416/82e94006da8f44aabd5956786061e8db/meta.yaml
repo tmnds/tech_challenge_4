@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/82e94006da8f44aabd5956786061e8db/artifacts
+end_time: 1731853072522
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: 82e94006da8f44aabd5956786061e8db
+run_name: clean-robin-271
+run_uuid: 82e94006da8f44aabd5956786061e8db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731853025777
+status: 3
+tags: []
+user_id: Chrystian

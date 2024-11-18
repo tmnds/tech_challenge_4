@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/fa260cb98b5d4bcbbfd3e0b3aa6e0fe7/artifacts
+end_time: 1731880221088
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: fa260cb98b5d4bcbbfd3e0b3aa6e0fe7
+run_name: gaudy-ox-680
+run_uuid: fa260cb98b5d4bcbbfd3e0b3aa6e0fe7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731880159000
+status: 3
+tags: []
+user_id: Chrystian

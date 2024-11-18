@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/1067383946d845bb88d9ceccb6210970/artifacts
+end_time: 1731859481622
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 1067383946d845bb88d9ceccb6210970
+run_name: casual-zebra-321
+run_uuid: 1067383946d845bb88d9ceccb6210970
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859434803
+status: 3
+tags: []
+user_id: Chrystian

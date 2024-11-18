@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/9e28d0fb938449b3981f66da3a54f4a1/artifacts
+end_time: 1731881819459
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 9e28d0fb938449b3981f66da3a54f4a1
+run_name: learned-flea-288
+run_uuid: 9e28d0fb938449b3981f66da3a54f4a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881773712
+status: 3
+tags: []
+user_id: Chrystian

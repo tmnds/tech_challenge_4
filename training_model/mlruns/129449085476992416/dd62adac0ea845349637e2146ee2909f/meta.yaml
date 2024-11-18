@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/dd62adac0ea845349637e2146ee2909f/artifacts
+end_time: 1731851452805
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: dd62adac0ea845349637e2146ee2909f
+run_name: omniscient-ox-20
+run_uuid: dd62adac0ea845349637e2146ee2909f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731851395925
+status: 3
+tags: []
+user_id: Chrystian

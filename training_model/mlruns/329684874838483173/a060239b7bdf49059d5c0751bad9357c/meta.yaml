@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/a060239b7bdf49059d5c0751bad9357c/artifacts
+end_time: 1731859527693
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: a060239b7bdf49059d5c0751bad9357c
+run_name: nervous-mare-192
+run_uuid: a060239b7bdf49059d5c0751bad9357c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859481708
+status: 3
+tags: []
+user_id: Chrystian

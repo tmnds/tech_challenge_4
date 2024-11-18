@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/1d52f9af6ec34a079e65bb873bb21313/artifacts
+end_time: 1731890850362
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 1d52f9af6ec34a079e65bb873bb21313
+run_name: learned-squid-891
+run_uuid: 1d52f9af6ec34a079e65bb873bb21313
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731890801409
+status: 3
+tags: []
+user_id: Chrystian

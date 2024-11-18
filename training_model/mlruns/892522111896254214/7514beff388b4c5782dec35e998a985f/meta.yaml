@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/7514beff388b4c5782dec35e998a985f/artifacts
+end_time: 1731879217165
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 7514beff388b4c5782dec35e998a985f
+run_name: suave-toad-874
+run_uuid: 7514beff388b4c5782dec35e998a985f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731879169775
+status: 3
+tags: []
+user_id: Chrystian

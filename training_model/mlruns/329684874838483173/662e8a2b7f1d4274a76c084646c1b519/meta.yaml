@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/662e8a2b7f1d4274a76c084646c1b519/artifacts
+end_time: 1731859575757
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 662e8a2b7f1d4274a76c084646c1b519
+run_name: resilient-colt-923
+run_uuid: 662e8a2b7f1d4274a76c084646c1b519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859527774
+status: 3
+tags: []
+user_id: Chrystian

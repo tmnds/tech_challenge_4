@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/3c4092eee8414ef8830b3247422ca15f/artifacts
+end_time: 1731868185443
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: 3c4092eee8414ef8830b3247422ca15f
+run_name: agreeable-crow-279
+run_uuid: 3c4092eee8414ef8830b3247422ca15f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731868131119
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/3ebb42164d1f43ebb51b815747b329d8/artifacts
+end_time: 1731857434729
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 3ebb42164d1f43ebb51b815747b329d8
+run_name: unruly-bird-198
+run_uuid: 3ebb42164d1f43ebb51b815747b329d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731857380611
+status: 3
+tags: []
+user_id: Chrystian

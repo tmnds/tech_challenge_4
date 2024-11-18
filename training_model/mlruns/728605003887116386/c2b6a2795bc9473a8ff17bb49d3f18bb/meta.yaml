@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/728605003887116386/c2b6a2795bc9473a8ff17bb49d3f18bb/artifacts
+end_time: 1731871801430
+entry_point_name: ''
+experiment_id: '728605003887116386'
+lifecycle_stage: active
+run_id: c2b6a2795bc9473a8ff17bb49d3f18bb
+run_name: loud-ant-812
+run_uuid: c2b6a2795bc9473a8ff17bb49d3f18bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731871749377
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/800979323726925304/b8e7a8b5898b4520a75986496fbf0d04/artifacts
+end_time: 1731850712798
+entry_point_name: ''
+experiment_id: '800979323726925304'
+lifecycle_stage: active
+run_id: b8e7a8b5898b4520a75986496fbf0d04
+run_name: popular-crow-578
+run_uuid: b8e7a8b5898b4520a75986496fbf0d04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731850553342
+status: 4
+tags: []
+user_id: Chrystian

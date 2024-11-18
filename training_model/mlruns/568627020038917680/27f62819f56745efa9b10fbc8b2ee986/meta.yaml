@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/27f62819f56745efa9b10fbc8b2ee986/artifacts
+end_time: 1731866722027
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: 27f62819f56745efa9b10fbc8b2ee986
+run_name: likeable-hen-203
+run_uuid: 27f62819f56745efa9b10fbc8b2ee986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731866671353
+status: 3
+tags: []
+user_id: Chrystian

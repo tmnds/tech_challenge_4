@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/728605003887116386/dac88ed0b3c04aee993e5b30aaa86ad4/artifacts
+end_time: 1731872287796
+entry_point_name: ''
+experiment_id: '728605003887116386'
+lifecycle_stage: active
+run_id: dac88ed0b3c04aee993e5b30aaa86ad4
+run_name: auspicious-frog-409
+run_uuid: dac88ed0b3c04aee993e5b30aaa86ad4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731872228041
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/827425569572298552/cd365560b7834330b0bfc9a5e944ea68/artifacts
+end_time: 1731869464957
+entry_point_name: ''
+experiment_id: '827425569572298552'
+lifecycle_stage: active
+run_id: cd365560b7834330b0bfc9a5e944ea68
+run_name: mysterious-doe-359
+run_uuid: cd365560b7834330b0bfc9a5e944ea68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731869392196
+status: 3
+tags: []
+user_id: Chrystian

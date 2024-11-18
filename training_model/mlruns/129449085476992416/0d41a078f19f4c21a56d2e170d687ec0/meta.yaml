@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/0d41a078f19f4c21a56d2e170d687ec0/artifacts
+end_time: 1731851829496
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: 0d41a078f19f4c21a56d2e170d687ec0
+run_name: popular-ram-771
+run_uuid: 0d41a078f19f4c21a56d2e170d687ec0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731851775023
+status: 3
+tags: []
+user_id: Chrystian

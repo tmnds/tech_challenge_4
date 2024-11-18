@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/d008bf7e85ea4ca98d65d62a56f6e0db/artifacts
+end_time: 1731860044639
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: d008bf7e85ea4ca98d65d62a56f6e0db
+run_name: orderly-tern-517
+run_uuid: d008bf7e85ea4ca98d65d62a56f6e0db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859997938
+status: 3
+tags: []
+user_id: Chrystian

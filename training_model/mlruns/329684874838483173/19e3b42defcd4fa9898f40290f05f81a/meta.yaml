@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/19e3b42defcd4fa9898f40290f05f81a/artifacts
+end_time: 1731858751460
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 19e3b42defcd4fa9898f40290f05f81a
+run_name: rambunctious-jay-435
+run_uuid: 19e3b42defcd4fa9898f40290f05f81a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731858706637
+status: 3
+tags: []
+user_id: Chrystian

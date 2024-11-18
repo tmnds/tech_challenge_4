@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/a5bcd11b18514335bdaf2084395936ec/artifacts
+end_time: 1731883715031
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: a5bcd11b18514335bdaf2084395936ec
+run_name: secretive-asp-599
+run_uuid: a5bcd11b18514335bdaf2084395936ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731883669622
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/800979323726925304/8d04e9cabe4e46e581410b4c46270ff7/artifacts
+end_time: 1731849968948
+entry_point_name: ''
+experiment_id: '800979323726925304'
+lifecycle_stage: active
+run_id: 8d04e9cabe4e46e581410b4c46270ff7
+run_name: illustrious-pug-505
+run_uuid: 8d04e9cabe4e46e581410b4c46270ff7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731849730093
+status: 3
+tags: []
+user_id: Chrystian

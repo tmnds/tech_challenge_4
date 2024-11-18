@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/728605003887116386/50cc1a5cff1a4132beb577aa0c050d34/artifacts
+end_time: 1731871049461
+entry_point_name: ''
+experiment_id: '728605003887116386'
+lifecycle_stage: active
+run_id: 50cc1a5cff1a4132beb577aa0c050d34
+run_name: zealous-bat-90
+run_uuid: 50cc1a5cff1a4132beb577aa0c050d34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731870988475
+status: 3
+tags: []
+user_id: Chrystian

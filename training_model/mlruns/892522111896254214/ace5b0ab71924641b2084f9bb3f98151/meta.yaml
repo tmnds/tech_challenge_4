@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/ace5b0ab71924641b2084f9bb3f98151/artifacts
+end_time: 1731879609232
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: ace5b0ab71924641b2084f9bb3f98151
+run_name: unleashed-bird-189
+run_uuid: ace5b0ab71924641b2084f9bb3f98151
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731879573110
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/a426963450e1414f997c2db0dd4d3b67/artifacts
+end_time: 1731866922590
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: a426963450e1414f997c2db0dd4d3b67
+run_name: enthused-finch-566
+run_uuid: a426963450e1414f997c2db0dd4d3b67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731866874252
+status: 3
+tags: []
+user_id: Chrystian

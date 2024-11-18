@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/68c6bc40542f4261b7ad7915b78cc2d9/artifacts
+end_time: 1731858249789
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 68c6bc40542f4261b7ad7915b78cc2d9
+run_name: capable-donkey-468
+run_uuid: 68c6bc40542f4261b7ad7915b78cc2d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731858202175
+status: 3
+tags: []
+user_id: Chrystian

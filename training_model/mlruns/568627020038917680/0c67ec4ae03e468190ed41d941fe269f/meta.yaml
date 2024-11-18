@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/0c67ec4ae03e468190ed41d941fe269f/artifacts
+end_time: 1731867318631
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: 0c67ec4ae03e468190ed41d941fe269f
+run_name: clean-grub-695
+run_uuid: 0c67ec4ae03e468190ed41d941fe269f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731867271698
+status: 3
+tags: []
+user_id: Chrystian

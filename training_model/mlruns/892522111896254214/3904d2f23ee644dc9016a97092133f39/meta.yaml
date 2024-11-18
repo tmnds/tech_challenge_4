@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/3904d2f23ee644dc9016a97092133f39/artifacts
+end_time: 1731880971696
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 3904d2f23ee644dc9016a97092133f39
+run_name: dazzling-grub-677
+run_uuid: 3904d2f23ee644dc9016a97092133f39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731880928746
+status: 3
+tags: []
+user_id: Chrystian

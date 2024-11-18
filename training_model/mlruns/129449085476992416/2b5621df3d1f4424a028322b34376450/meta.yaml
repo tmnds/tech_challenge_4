@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/2b5621df3d1f4424a028322b34376450/artifacts
+end_time: 1731853264029
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: 2b5621df3d1f4424a028322b34376450
+run_name: rumbling-fowl-784
+run_uuid: 2b5621df3d1f4424a028322b34376450
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731853218685
+status: 3
+tags: []
+user_id: Chrystian

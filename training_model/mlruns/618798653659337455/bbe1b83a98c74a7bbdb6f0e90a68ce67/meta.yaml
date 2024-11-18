@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/618798653659337455/bbe1b83a98c74a7bbdb6f0e90a68ce67/artifacts
+end_time: 1731796813035
+entry_point_name: ''
+experiment_id: '618798653659337455'
+lifecycle_stage: active
+run_id: bbe1b83a98c74a7bbdb6f0e90a68ce67
+run_name: adorable-duck-552
+run_uuid: bbe1b83a98c74a7bbdb6f0e90a68ce67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731796778022
+status: 3
+tags: []
+user_id: Chrystian

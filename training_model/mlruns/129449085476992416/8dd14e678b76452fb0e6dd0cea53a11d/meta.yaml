@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/8dd14e678b76452fb0e6dd0cea53a11d/artifacts
+end_time: 1731853773036
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: 8dd14e678b76452fb0e6dd0cea53a11d
+run_name: clumsy-moth-719
+run_uuid: 8dd14e678b76452fb0e6dd0cea53a11d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731853727301
+status: 3
+tags: []
+user_id: Chrystian

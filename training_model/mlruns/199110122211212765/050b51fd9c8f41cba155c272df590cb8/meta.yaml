@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/050b51fd9c8f41cba155c272df590cb8/artifacts
+end_time: 1731893066126
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 050b51fd9c8f41cba155c272df590cb8
+run_name: adventurous-goat-210
+run_uuid: 050b51fd9c8f41cba155c272df590cb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731893025613
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/253827162fd7492ebb16693e60587aab/artifacts
+end_time: 1731877106342
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 253827162fd7492ebb16693e60587aab
+run_name: glamorous-hound-377
+run_uuid: 253827162fd7492ebb16693e60587aab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731877008935
+status: 3
+tags: []
+user_id: Chrystian

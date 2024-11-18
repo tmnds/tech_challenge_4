@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/cc5d1dfd97244bd49f7e3c3716d2e3e5/artifacts
+end_time: 1731851284296
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: cc5d1dfd97244bd49f7e3c3716d2e3e5
+run_name: aged-owl-251
+run_uuid: cc5d1dfd97244bd49f7e3c3716d2e3e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731851229212
+status: 3
+tags: []
+user_id: Chrystian

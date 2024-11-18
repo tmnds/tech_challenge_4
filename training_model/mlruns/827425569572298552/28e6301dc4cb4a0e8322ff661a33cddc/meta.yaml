@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/827425569572298552/28e6301dc4cb4a0e8322ff661a33cddc/artifacts
+end_time: 1731868772766
+entry_point_name: ''
+experiment_id: '827425569572298552'
+lifecycle_stage: active
+run_id: 28e6301dc4cb4a0e8322ff661a33cddc
+run_name: funny-jay-674
+run_uuid: 28e6301dc4cb4a0e8322ff661a33cddc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731868721415
+status: 3
+tags: []
+user_id: Chrystian

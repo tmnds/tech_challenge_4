@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/96e315bc62df49d2b5bb5c60594d5f5c/artifacts
+end_time: 1731875589948
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 96e315bc62df49d2b5bb5c60594d5f5c
+run_name: victorious-stag-120
+run_uuid: 96e315bc62df49d2b5bb5c60594d5f5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731875397684
+status: 3
+tags: []
+user_id: Chrystian

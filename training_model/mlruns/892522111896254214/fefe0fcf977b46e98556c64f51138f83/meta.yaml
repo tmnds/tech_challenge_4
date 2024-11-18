@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/fefe0fcf977b46e98556c64f51138f83/artifacts
+end_time: 1731879471408
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: fefe0fcf977b46e98556c64f51138f83
+run_name: welcoming-ray-140
+run_uuid: fefe0fcf977b46e98556c64f51138f83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731879436907
+status: 3
+tags: []
+user_id: Chrystian

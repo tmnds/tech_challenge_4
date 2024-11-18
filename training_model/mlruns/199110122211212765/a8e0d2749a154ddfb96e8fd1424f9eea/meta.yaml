@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/a8e0d2749a154ddfb96e8fd1424f9eea/artifacts
+end_time: 1731890908273
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: a8e0d2749a154ddfb96e8fd1424f9eea
+run_name: casual-carp-415
+run_uuid: a8e0d2749a154ddfb96e8fd1424f9eea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731890850452
+status: 3
+tags: []
+user_id: Chrystian

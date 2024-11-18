@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/be4909dc2d4c4cf08a7ce9568918385d/artifacts
+end_time: 1731860771955
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: be4909dc2d4c4cf08a7ce9568918385d
+run_name: bouncy-jay-386
+run_uuid: be4909dc2d4c4cf08a7ce9568918385d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731860724547
+status: 3
+tags: []
+user_id: Chrystian

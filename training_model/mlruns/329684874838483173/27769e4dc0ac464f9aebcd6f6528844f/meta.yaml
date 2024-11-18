@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/27769e4dc0ac464f9aebcd6f6528844f/artifacts
+end_time: 1731859345262
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 27769e4dc0ac464f9aebcd6f6528844f
+run_name: fun-shoat-468
+run_uuid: 27769e4dc0ac464f9aebcd6f6528844f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859300052
+status: 3
+tags: []
+user_id: Chrystian

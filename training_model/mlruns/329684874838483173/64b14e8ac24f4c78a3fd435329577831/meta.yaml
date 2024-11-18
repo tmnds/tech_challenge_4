@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/64b14e8ac24f4c78a3fd435329577831/artifacts
+end_time: 1731859951350
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 64b14e8ac24f4c78a3fd435329577831
+run_name: trusting-lamb-667
+run_uuid: 64b14e8ac24f4c78a3fd435329577831
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859905071
+status: 3
+tags: []
+user_id: Chrystian

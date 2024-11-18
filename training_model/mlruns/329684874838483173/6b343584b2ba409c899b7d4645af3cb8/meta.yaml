@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/6b343584b2ba409c899b7d4645af3cb8/artifacts
+end_time: 1731859434719
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 6b343584b2ba409c899b7d4645af3cb8
+run_name: caring-fly-767
+run_uuid: 6b343584b2ba409c899b7d4645af3cb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859390190
+status: 3
+tags: []
+user_id: Chrystian

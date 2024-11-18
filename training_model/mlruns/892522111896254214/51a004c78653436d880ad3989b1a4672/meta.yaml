@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/51a004c78653436d880ad3989b1a4672/artifacts
+end_time: 1731881736128
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 51a004c78653436d880ad3989b1a4672
+run_name: merciful-cow-884
+run_uuid: 51a004c78653436d880ad3989b1a4672
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881662441
+status: 3
+tags: []
+user_id: Chrystian

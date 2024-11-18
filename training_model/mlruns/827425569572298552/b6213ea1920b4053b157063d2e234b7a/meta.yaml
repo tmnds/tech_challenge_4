@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/827425569572298552/b6213ea1920b4053b157063d2e234b7a/artifacts
+end_time: 1731869219277
+entry_point_name: ''
+experiment_id: '827425569572298552'
+lifecycle_stage: active
+run_id: b6213ea1920b4053b157063d2e234b7a
+run_name: mercurial-mule-309
+run_uuid: b6213ea1920b4053b157063d2e234b7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731869145367
+status: 3
+tags: []
+user_id: Chrystian

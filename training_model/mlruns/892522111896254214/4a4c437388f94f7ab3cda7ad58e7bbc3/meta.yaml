@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/4a4c437388f94f7ab3cda7ad58e7bbc3/artifacts
+end_time: 1731876449645
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 4a4c437388f94f7ab3cda7ad58e7bbc3
+run_name: monumental-cub-265
+run_uuid: 4a4c437388f94f7ab3cda7ad58e7bbc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731876332015
+status: 3
+tags: []
+user_id: Chrystian

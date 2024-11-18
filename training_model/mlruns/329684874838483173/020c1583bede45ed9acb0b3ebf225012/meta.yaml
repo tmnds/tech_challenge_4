@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/020c1583bede45ed9acb0b3ebf225012/artifacts
+end_time: 1731858706548
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 020c1583bede45ed9acb0b3ebf225012
+run_name: unequaled-worm-510
+run_uuid: 020c1583bede45ed9acb0b3ebf225012
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731858661941
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/2f125b8da21740468c5e2f1423cd198b/artifacts
+end_time: 1731877008848
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 2f125b8da21740468c5e2f1423cd198b
+run_name: upset-foal-212
+run_uuid: 2f125b8da21740468c5e2f1423cd198b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731876945610
+status: 3
+tags: []
+user_id: Chrystian

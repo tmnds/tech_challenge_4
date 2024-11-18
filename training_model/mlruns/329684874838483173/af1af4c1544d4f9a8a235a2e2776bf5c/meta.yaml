@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/af1af4c1544d4f9a8a235a2e2776bf5c/artifacts
+end_time: 1731861653581
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: af1af4c1544d4f9a8a235a2e2776bf5c
+run_name: suave-goat-801
+run_uuid: af1af4c1544d4f9a8a235a2e2776bf5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731861603219
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/4c22c932d3d64d0487d2518175def0ea/artifacts
+end_time: 1731876790006
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 4c22c932d3d64d0487d2518175def0ea
+run_name: nimble-sow-492
+run_uuid: 4c22c932d3d64d0487d2518175def0ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731876718502
+status: 3
+tags: []
+user_id: Chrystian

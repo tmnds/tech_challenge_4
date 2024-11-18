@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/00e9209737da42f19f88fd15b00198fa/artifacts
+end_time: 1731892475521
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 00e9209737da42f19f88fd15b00198fa
+run_name: spiffy-rat-894
+run_uuid: 00e9209737da42f19f88fd15b00198fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731892397556
+status: 3
+tags: []
+user_id: Chrystian

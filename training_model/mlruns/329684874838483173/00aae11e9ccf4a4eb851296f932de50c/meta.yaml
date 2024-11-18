@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/00aae11e9ccf4a4eb851296f932de50c/artifacts
+end_time: 1731860629253
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 00aae11e9ccf4a4eb851296f932de50c
+run_name: rebellious-gnat-827
+run_uuid: 00aae11e9ccf4a4eb851296f932de50c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731860576444
+status: 3
+tags: []
+user_id: Chrystian

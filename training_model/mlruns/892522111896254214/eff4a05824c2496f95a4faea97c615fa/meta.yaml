@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/eff4a05824c2496f95a4faea97c615fa/artifacts
+end_time: 1731874973018
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: eff4a05824c2496f95a4faea97c615fa
+run_name: whimsical-chimp-630
+run_uuid: eff4a05824c2496f95a4faea97c615fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731874864074
+status: 3
+tags: []
+user_id: Chrystian

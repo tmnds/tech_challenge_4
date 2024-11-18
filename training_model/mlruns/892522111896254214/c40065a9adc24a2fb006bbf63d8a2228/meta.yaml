@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/c40065a9adc24a2fb006bbf63d8a2228/artifacts
+end_time: 1731883272191
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: c40065a9adc24a2fb006bbf63d8a2228
+run_name: serious-tern-463
+run_uuid: c40065a9adc24a2fb006bbf63d8a2228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731883173763
+status: 3
+tags: []
+user_id: Chrystian

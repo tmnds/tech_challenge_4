@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/800979323726925304/01ff62dc7dc04ff4bfa414113b11c6ba/artifacts
+end_time: 1731849969188
+entry_point_name: ''
+experiment_id: '800979323726925304'
+lifecycle_stage: active
+run_id: 01ff62dc7dc04ff4bfa414113b11c6ba
+run_name: hilarious-lamb-512
+run_uuid: 01ff62dc7dc04ff4bfa414113b11c6ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731849969014
+status: 4
+tags: []
+user_id: Chrystian

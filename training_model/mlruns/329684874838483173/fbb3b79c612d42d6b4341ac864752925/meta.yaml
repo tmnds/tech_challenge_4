@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/fbb3b79c612d42d6b4341ac864752925/artifacts
+end_time: 1731860378978
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: fbb3b79c612d42d6b4341ac864752925
+run_name: sneaky-yak-889
+run_uuid: fbb3b79c612d42d6b4341ac864752925
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731860331885
+status: 3
+tags: []
+user_id: Chrystian

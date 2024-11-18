@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/4d0907ee45a34ec18cac66c8f536856b/artifacts
+end_time: 1731881368417
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 4d0907ee45a34ec18cac66c8f536856b
+run_name: bustling-eel-574
+run_uuid: 4d0907ee45a34ec18cac66c8f536856b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881270452
+status: 3
+tags: []
+user_id: Chrystian

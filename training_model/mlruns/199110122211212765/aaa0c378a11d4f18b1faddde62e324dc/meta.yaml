@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/aaa0c378a11d4f18b1faddde62e324dc/artifacts
+end_time: 1731892655030
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: aaa0c378a11d4f18b1faddde62e324dc
+run_name: sedate-doe-814
+run_uuid: aaa0c378a11d4f18b1faddde62e324dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731892605989
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/678ae0b6e2a94c3381cf9b4a3e066620/artifacts
+end_time: 1731875754846
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 678ae0b6e2a94c3381cf9b4a3e066620
+run_name: skittish-shrew-871
+run_uuid: 678ae0b6e2a94c3381cf9b4a3e066620
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731875685398
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/239ca2ff94634aa2a0cfab72115425f1/artifacts
+end_time: 1731859390104
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 239ca2ff94634aa2a0cfab72115425f1
+run_name: big-ray-879
+run_uuid: 239ca2ff94634aa2a0cfab72115425f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859345345
+status: 3
+tags: []
+user_id: Chrystian

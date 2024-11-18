@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/a1abcdedf4e54abaa5f36ae4e2ca80cb/artifacts
+end_time: 1731859162342
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: a1abcdedf4e54abaa5f36ae4e2ca80cb
+run_name: valuable-trout-404
+run_uuid: a1abcdedf4e54abaa5f36ae4e2ca80cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859115790
+status: 3
+tags: []
+user_id: Chrystian

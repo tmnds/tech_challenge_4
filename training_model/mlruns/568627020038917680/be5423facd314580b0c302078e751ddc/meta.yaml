@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/be5423facd314580b0c302078e751ddc/artifacts
+end_time: 1731867864684
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: be5423facd314580b0c302078e751ddc
+run_name: skillful-hog-474
+run_uuid: be5423facd314580b0c302078e751ddc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731867811821
+status: 3
+tags: []
+user_id: Chrystian

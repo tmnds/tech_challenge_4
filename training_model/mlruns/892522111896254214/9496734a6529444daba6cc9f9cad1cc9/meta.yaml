@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/9496734a6529444daba6cc9f9cad1cc9/artifacts
+end_time: 1731881107956
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 9496734a6529444daba6cc9f9cad1cc9
+run_name: chill-lynx-349
+run_uuid: 9496734a6529444daba6cc9f9cad1cc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881030037
+status: 3
+tags: []
+user_id: Chrystian

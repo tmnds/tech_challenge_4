@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/02e0d9cf73fe4251b364b422b394addd/artifacts
+end_time: 1731881662349
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 02e0d9cf73fe4251b364b422b394addd
+run_name: hilarious-robin-550
+run_uuid: 02e0d9cf73fe4251b364b422b394addd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881608578
+status: 3
+tags: []
+user_id: Chrystian

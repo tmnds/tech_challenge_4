@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/cfc7e2ddac8041878c09b863c16448fb/artifacts
+end_time: 1731883560320
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: cfc7e2ddac8041878c09b863c16448fb
+run_name: illustrious-crow-826
+run_uuid: cfc7e2ddac8041878c09b863c16448fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731883508095
+status: 3
+tags: []
+user_id: Chrystian

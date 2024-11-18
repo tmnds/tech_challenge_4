@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/cb70b10412f749e7a01ada478eb4fc4a/artifacts
+end_time: 1731860233399
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: cb70b10412f749e7a01ada478eb4fc4a
+run_name: suave-asp-538
+run_uuid: cb70b10412f749e7a01ada478eb4fc4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731860186602
+status: 3
+tags: []
+user_id: Chrystian

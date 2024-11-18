@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/c6bc3832e1914de18806a9e133ef6926/artifacts
+end_time: 1731859858155
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: c6bc3832e1914de18806a9e133ef6926
+run_name: calm-robin-563
+run_uuid: c6bc3832e1914de18806a9e133ef6926
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731859811654
+status: 3
+tags: []
+user_id: Chrystian

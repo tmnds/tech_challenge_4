@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/fd1316c279564fe4aad54989cb73ecc7/artifacts
+end_time: 1731882675884
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: fd1316c279564fe4aad54989cb73ecc7
+run_name: handsome-pug-787
+run_uuid: fd1316c279564fe4aad54989cb73ecc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731882642412
+status: 3
+tags: []
+user_id: Chrystian

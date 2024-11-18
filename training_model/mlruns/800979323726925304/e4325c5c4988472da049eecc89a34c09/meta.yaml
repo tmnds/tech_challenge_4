@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/800979323726925304/e4325c5c4988472da049eecc89a34c09/artifacts
+end_time: 1731850553277
+entry_point_name: ''
+experiment_id: '800979323726925304'
+lifecycle_stage: active
+run_id: e4325c5c4988472da049eecc89a34c09
+run_name: bedecked-snail-586
+run_uuid: e4325c5c4988472da049eecc89a34c09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731850458000
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/662deebe1b664d0d9cdb88955cb2275d/artifacts
+end_time: 1731857946127
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 662deebe1b664d0d9cdb88955cb2275d
+run_name: delicate-asp-233
+run_uuid: 662deebe1b664d0d9cdb88955cb2275d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731857890616
+status: 3
+tags: []
+user_id: Chrystian

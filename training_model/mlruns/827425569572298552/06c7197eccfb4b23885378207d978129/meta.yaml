@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/827425569572298552/06c7197eccfb4b23885378207d978129/artifacts
+end_time: 1731869145276
+entry_point_name: ''
+experiment_id: '827425569572298552'
+lifecycle_stage: active
+run_id: 06c7197eccfb4b23885378207d978129
+run_name: vaunted-owl-989
+run_uuid: 06c7197eccfb4b23885378207d978129
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731869096058
+status: 3
+tags: []
+user_id: Chrystian

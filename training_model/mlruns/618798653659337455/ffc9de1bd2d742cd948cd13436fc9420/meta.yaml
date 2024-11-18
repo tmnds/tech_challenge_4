@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/618798653659337455/ffc9de1bd2d742cd948cd13436fc9420/artifacts
+end_time: 1731796858204
+entry_point_name: ''
+experiment_id: '618798653659337455'
+lifecycle_stage: active
+run_id: ffc9de1bd2d742cd948cd13436fc9420
+run_name: victorious-hawk-538
+run_uuid: ffc9de1bd2d742cd948cd13436fc9420
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731796823966
+status: 3
+tags: []
+user_id: Chrystian

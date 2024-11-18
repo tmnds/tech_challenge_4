@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/618798653659337455
+creation_time: 1731796702574
+experiment_id: '618798653659337455'
+last_update_time: 1731796702574
+lifecycle_stage: active
+name: LSTM Grid Search Test

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/75325de0f95a449b9b10099491dc9094/artifacts
+end_time: 1731879650572
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 75325de0f95a449b9b10099491dc9094
+run_name: big-grub-347
+run_uuid: 75325de0f95a449b9b10099491dc9094
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731879609325
+status: 3
+tags: []
+user_id: Chrystian

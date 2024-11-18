@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/728605003887116386/2c7167044c6942bbb1f2904e20d1b069/artifacts
+end_time: 1731872806745
+entry_point_name: ''
+experiment_id: '728605003887116386'
+lifecycle_stage: active
+run_id: 2c7167044c6942bbb1f2904e20d1b069
+run_name: lyrical-boar-975
+run_uuid: 2c7167044c6942bbb1f2904e20d1b069
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731872718426
+status: 3
+tags: []
+user_id: Chrystian

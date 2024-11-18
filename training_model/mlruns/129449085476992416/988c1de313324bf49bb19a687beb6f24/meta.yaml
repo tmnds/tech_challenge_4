@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/988c1de313324bf49bb19a687beb6f24/artifacts
+end_time: 1731853313640
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: 988c1de313324bf49bb19a687beb6f24
+run_name: nimble-mare-817
+run_uuid: 988c1de313324bf49bb19a687beb6f24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731853264147
+status: 3
+tags: []
+user_id: Chrystian

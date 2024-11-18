@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/06934c441cad452d8ec884f69a5704ff/artifacts
+end_time: 1731879707911
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 06934c441cad452d8ec884f69a5704ff
+run_name: secretive-shad-679
+run_uuid: 06934c441cad452d8ec884f69a5704ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731879650636
+status: 3
+tags: []
+user_id: Chrystian

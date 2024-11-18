@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/c257ecdb3fd64f02bb9e46fb44f8e773/artifacts
+end_time: 1731858931609
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: c257ecdb3fd64f02bb9e46fb44f8e773
+run_name: handsome-wolf-769
+run_uuid: c257ecdb3fd64f02bb9e46fb44f8e773
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731858886346
+status: 3
+tags: []
+user_id: Chrystian

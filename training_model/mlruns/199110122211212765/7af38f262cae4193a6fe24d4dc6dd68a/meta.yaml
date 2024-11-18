@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/7af38f262cae4193a6fe24d4dc6dd68a/artifacts
+end_time: 1731893239969
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 7af38f262cae4193a6fe24d4dc6dd68a
+run_name: unequaled-hog-452
+run_uuid: 7af38f262cae4193a6fe24d4dc6dd68a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731893173943
+status: 3
+tags: []
+user_id: Chrystian

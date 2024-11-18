@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/199110122211212765/35ddd6aba85a4fcfb5991793c242c29e/artifacts
+end_time: 1731892988223
+entry_point_name: ''
+experiment_id: '199110122211212765'
+lifecycle_stage: active
+run_id: 35ddd6aba85a4fcfb5991793c242c29e
+run_name: trusting-crane-275
+run_uuid: 35ddd6aba85a4fcfb5991793c242c29e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731892883450
+status: 3
+tags: []
+user_id: Chrystian

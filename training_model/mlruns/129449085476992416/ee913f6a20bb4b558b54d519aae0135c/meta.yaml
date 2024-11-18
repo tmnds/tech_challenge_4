@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/ee913f6a20bb4b558b54d519aae0135c/artifacts
+end_time: 1731851774962
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: ee913f6a20bb4b558b54d519aae0135c
+run_name: judicious-crab-343
+run_uuid: ee913f6a20bb4b558b54d519aae0135c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731851720345
+status: 3
+tags: []
+user_id: Chrystian

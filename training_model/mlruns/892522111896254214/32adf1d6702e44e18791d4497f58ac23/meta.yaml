@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/32adf1d6702e44e18791d4497f58ac23/artifacts
+end_time: 1731881270385
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 32adf1d6702e44e18791d4497f58ac23
+run_name: thoughtful-ram-532
+run_uuid: 32adf1d6702e44e18791d4497f58ac23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731881199114
+status: 3
+tags: []
+user_id: Chrystian

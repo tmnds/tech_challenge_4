@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/91600f0991564945accd3bf45815d2dd/artifacts
+end_time: 1731866823120
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: 91600f0991564945accd3bf45815d2dd
+run_name: skillful-dove-326
+run_uuid: 91600f0991564945accd3bf45815d2dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731866772771
+status: 3
+tags: []
+user_id: Chrystian

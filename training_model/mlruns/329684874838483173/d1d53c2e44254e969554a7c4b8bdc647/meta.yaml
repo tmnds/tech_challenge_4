@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/d1d53c2e44254e969554a7c4b8bdc647/artifacts
+end_time: 1731858795756
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: d1d53c2e44254e969554a7c4b8bdc647
+run_name: funny-cod-781
+run_uuid: d1d53c2e44254e969554a7c4b8bdc647
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731858751543
+status: 3
+tags: []
+user_id: Chrystian

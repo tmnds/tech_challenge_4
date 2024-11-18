@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892522111896254214/85e8e18deb3b4a608dd480e4319e808c/artifacts
+end_time: 1731875191034
+entry_point_name: ''
+experiment_id: '892522111896254214'
+lifecycle_stage: active
+run_id: 85e8e18deb3b4a608dd480e4319e808c
+run_name: melodic-goose-519
+run_uuid: 85e8e18deb3b4a608dd480e4319e808c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731875121275
+status: 3
+tags: []
+user_id: Chrystian

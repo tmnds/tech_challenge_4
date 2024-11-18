@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129449085476992416/482ab47de5e94313beee43b8429f9c28/artifacts
+end_time: 1731850937214
+entry_point_name: ''
+experiment_id: '129449085476992416'
+lifecycle_stage: active
+run_id: 482ab47de5e94313beee43b8429f9c28
+run_name: fortunate-pig-467
+run_uuid: 482ab47de5e94313beee43b8429f9c28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731850879352
+status: 3
+tags: []
+user_id: Chrystian

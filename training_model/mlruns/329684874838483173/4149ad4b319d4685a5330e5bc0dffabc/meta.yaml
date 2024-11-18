@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/329684874838483173/4149ad4b319d4685a5330e5bc0dffabc/artifacts
+end_time: 1731860282556
+entry_point_name: ''
+experiment_id: '329684874838483173'
+lifecycle_stage: active
+run_id: 4149ad4b319d4685a5330e5bc0dffabc
+run_name: rare-worm-432
+run_uuid: 4149ad4b319d4685a5330e5bc0dffabc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731860233486
+status: 3
+tags: []
+user_id: Chrystian

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/568627020038917680/5f37223d6e9b47018cadd5978d06ec9b/artifacts
+end_time: 1731867079199
+entry_point_name: ''
+experiment_id: '568627020038917680'
+lifecycle_stage: active
+run_id: 5f37223d6e9b47018cadd5978d06ec9b
+run_name: handsome-fowl-455
+run_uuid: 5f37223d6e9b47018cadd5978d06ec9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731867023236
+status: 3
+tags: []
+user_id: Chrystian

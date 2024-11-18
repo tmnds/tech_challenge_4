@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/728605003887116386/f270bc4746b64fdabe43ae2036b622a6/artifacts
+end_time: 1731872068208
+entry_point_name: ''
+experiment_id: '728605003887116386'
+lifecycle_stage: active
+run_id: f270bc4746b64fdabe43ae2036b622a6
+run_name: amazing-hawk-90
+run_uuid: f270bc4746b64fdabe43ae2036b622a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731871977421
+status: 3
+tags: []
+user_id: Chrystian
