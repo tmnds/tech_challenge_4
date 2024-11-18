@@ -267,3 +267,46 @@ discard adam
 (units=200, optim=nadam, dense_mid=50, inputs=1) -> [R2=0.81, RMSE=0.874]
 (units=100, optim=nadam, dense_mid=50, inputs=1) -> [R2=0.899, RMSE=0.637]
 
+################################################
+
+*Check batch_size: discard batch_size = 10
+--------------------------------
+RMSE > 5
+[10] : 2
+[20,30] : 1
+
+RMSE < 0.7
+[10] : 0
+[20] : 3
+[30] : 4
+
+*Check seq_length: test more for [20,30]
+--------------------------------
+RMSE > 5
+[10] : 2
+[20,30] : 1
+
+RMSE < 0.7
+[10] : 0
+[20] : 3
+[30] : 4
+
+
+
+
+################################################
+CHAMPION MODELS
+################################################
+
+Exp 9
+fun-bass-942
+trusting-crane-275
+
+Exp 8
+unleashed-bird-189
+
+Exp 7
+carefree-snipe-956
+
+Exp 6
+calm-yak-301
