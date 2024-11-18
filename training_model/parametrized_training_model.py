@@ -7,25 +7,30 @@ from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM, Input
-from tensorflow.keras.regularizers import l1, l2, l1_l2
+
 
 stock_var = 'Adj Close'
 
-def custom_lstm_model(seq_length, n_inputs):
-    model = Sequential([
-            Input((seq_length, n_inputs)),
-            LSTM(units=100, activation='relu',
-            ),
-            Dropout(rate=0.1),
-            Dense(1, activation='relu')
-    ])
-    model.compile(optimizer='adam', loss='mse')
+def custom_lstm_model(seq_length, n_inputs, units1, activation1, kernel_reg_factor1, 
+                      dropout_layer1, dense_mid_size, activation_out, optim):
+
+    model = Sequential()
+    model.add(Input((seq_length, n_inputs)))
+    model.add(LSTM(units=units1, activation=activation1, kernel_regularizer=kernel_reg_factor1))
+    if dropout_layer1 is not None:
+        model.add(Dropout(rate=dropout_layer1))
+    if dense_mid_size is not None:
+        model.add(Dense(dense_mid_size, activation=activation_out))
+    model.add(Dense(1, activation=activation_out))
+    model.compile(optimizer=optim, loss='mse')
 
     return model
     
 
 def parametrized_training(company_inputs, company_output, start_date, end_date, train_ratio,
-                          horizon_pred, seq_length, batch_size, n_epochs):
+                          horizon_pred, seq_length, batch_size,
+                          units1, activation1, kernel_reg_factor1, 
+                          dropout_layer1, dense_mid_size, activation_out, optim):
 
     df = get_finance_df(company_inputs, start_date, end_date, stock_var)
     df = df.interpolate(method='linear')
@@ -54,6 +59,6 @@ def parametrized_training(company_inputs, company_output, start_date, end_date, 
     generator_train = TimeseriesGenerator(scaled_X_train, scaled_y_train, length=seq_length, batch_size=batch_size)
     generator_test = TimeseriesGenerator(scaled_X_test, scaled_y_test, length=seq_length, batch_size=batch_size)
 
-    model = custom_lstm_model(seq_length, n_inputs)
+    model = custom_lstm_model(seq_length, n_inputs, units1, activation1, kernel_reg_factor1, dropout_layer1, dense_mid_size, activation_out, optim)
 
     return (scalerX, scalery, generator_train, generator_test, model)
