@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/496402008546208592/8dc7ec39ae6b4136bee966155664aefc/artifacts
+deleted_time: 1732122645029
+end_time: null
+entry_point_name: ''
+experiment_id: '496402008546208592'
+lifecycle_stage: deleted
+run_id: 8dc7ec39ae6b4136bee966155664aefc
+run_name: redolent-doe-821
+run_uuid: 8dc7ec39ae6b4136bee966155664aefc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732122535287
+status: 1
+tags: []
+user_id: Chrystian

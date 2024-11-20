@@ -33,7 +33,6 @@ def parametrized_training(company_inputs, company_output, start_date, end_date, 
                           dropout_layer1, dense_mid_size, activation_out, optim):
 
     df = get_finance_df(company_inputs, start_date, end_date, stock_var)
-    df = df.interpolate(method='linear')
 
     n_inputs = len(company_inputs)    
 

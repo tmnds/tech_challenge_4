@@ -1,0 +1,21 @@
+artifact_path: artifacts/transformers/scalerX
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.2
+model_size_bytes: 63776
+model_uuid: 08c95dfeff2345a788a04bcc04dd63d7
+run_id: a2459abf0aad484696d98ffa818a369d
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: ndarray
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 1]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    1]}}]'
+  params: null
+utc_time_created: '2024-11-20 16:40:00.326568'

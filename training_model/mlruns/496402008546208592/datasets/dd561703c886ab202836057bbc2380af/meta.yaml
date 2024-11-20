@@ -1,0 +1,10 @@
+digest: 7aca23d1
+name: numpy_XY_test
+profile: '{"features_shape": [180, 1], "features_size": 180, "features_nbytes": 1440,
+  "targets_shape": [30, 1], "targets_size": 30, "targets_nbytes": 240}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 1]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"float64\", \"shape\": [-1, 1]}}]"}}'
+source: '{"tags": {"mlflow.user": "Chrystian", "mlflow.source.name": "c:\\GitRepos\\TC4-Thales\\tech_challenge_4\\training_model\\.venv\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

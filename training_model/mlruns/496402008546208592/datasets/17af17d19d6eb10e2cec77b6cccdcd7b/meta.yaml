@@ -1,0 +1,10 @@
+digest: e6480a44
+name: numpy_XY_train
+profile: '{"features_shape": [1023, 1], "features_size": 1023, "features_nbytes":
+  8184, "targets_shape": [1023], "targets_size": 1023, "targets_nbytes": 8184}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 1]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"float64\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "Chrystian", "mlflow.source.name": "c:\\GitRepos\\TC4-Thales\\tech_challenge_4\\training_model\\.venv\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

@@ -1,0 +1,17 @@
+artifact_path: artifacts/transformers/scalery
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.2
+model_size_bytes: 522
+model_uuid: 5d91aa5e670344c28bbc3f6b23a3ed86
+run_id: 2e49ee45815f41faa41c61c68c7896d9
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    1]}}]'
+  params: null
+utc_time_created: '2024-11-20 17:04:30.347886'

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/496402008546208592/84cb9f8ccc594b83a636e3ecf0fa74bd/artifacts
+end_time: 1732124095403
+entry_point_name: ''
+experiment_id: '496402008546208592'
+lifecycle_stage: active
+run_id: 84cb9f8ccc594b83a636e3ecf0fa74bd
+run_name: colorful-hound-316
+run_uuid: 84cb9f8ccc594b83a636e3ecf0fa74bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732123643402
+status: 3
+tags: []
+user_id: Chrystian

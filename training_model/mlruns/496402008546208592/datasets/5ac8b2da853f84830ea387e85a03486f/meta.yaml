@@ -1,0 +1,7 @@
+digest: 82d5bfe4
+name: df
+profile: '{"num_rows": 1204, "num_elements": 2408}'
+schema: '{"mlflow_colspec": [{"type": "datetime", "name": "Datetime", "required":
+  true}, {"type": "double", "name": "PETR4.SA", "required": true}]}'
+source: '{"uri": "yfinance"}'
+source_type: local

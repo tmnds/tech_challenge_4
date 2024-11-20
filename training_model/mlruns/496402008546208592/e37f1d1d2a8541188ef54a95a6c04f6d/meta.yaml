@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/496402008546208592/e37f1d1d2a8541188ef54a95a6c04f6d/artifacts
+end_time: 1732122244276
+entry_point_name: ''
+experiment_id: '496402008546208592'
+lifecycle_stage: active
+run_id: e37f1d1d2a8541188ef54a95a6c04f6d
+run_name: fortunate-cub-11
+run_uuid: e37f1d1d2a8541188ef54a95a6c04f6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732122222801
+status: 3
+tags: []
+user_id: Chrystian

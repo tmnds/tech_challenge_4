@@ -37,7 +37,7 @@ def get_finance_df(
         # Transform the raw data into a suitable DF
         df = create_df_for_multi_companies(raw_data_multiindex, stock_var, companies)
 
-        return df
+        return df.interpolate(method='linear')
     
     except:
             Exception("Unexpected error: something wrong occurred while creating the finance DF")
