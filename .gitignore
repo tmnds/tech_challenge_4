@@ -3,6 +3,7 @@ __pycache__/
 *pytest_cache*
 venv*
 *.log
-.venv
-mlruns
+.venv*
 mlartifacts
+mlruns
+*zip
