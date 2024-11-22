@@ -5,6 +5,9 @@ import pandas as pd
 import seaborn as sns
 import time
 import psutil
+import json
+
+from pydantic import BaseModel, Field
 
 from prometheus_client import start_http_server, Gauge, Histogram, Counter
 from fastapi import FastAPI, Request, HTTPException
@@ -15,18 +18,39 @@ from prometheus_client import make_wsgi_app, generate_latest, CONTENT_TYPE_LATES
 
 from src.data_drift import detect_data_drift
 from src.concept_drift import detect_concept_drift
+from src.feature_engineering import get_finance_df, shift_drop_na_in_xy
+from src.model_functions import make_predictions
+
+import mlflow
+import mlflow.sklearn
+
+COMPANY = 'PETR4.SA'
+STOCK_VAR = 'Adj Close'
+
+SCALER_PATH = 'artifacts/transformers/scalerX'
+MODEL_PATH = 'artifacts/models_tf/best_models'
+
+batch_size = 30
+
+class Request(BaseModel):
+    start_date: str
+    end_date: str
+    seq_length: int
+    horizon: int
 
 app = FastAPI()
 
 # Load the model pipeline
-# try:
-#     model_pipeline = joblib.load("../model_pipeline.joblib")
-#     print("Model pipeline loaded successfully")
-# except Exception as e:
-#     print(f"Error loading model pipeline: {e}")
-#     print(f"Current working directory: {os.getcwd()}")
-#     print(f"Files in current directory: {os.listdir('.')}")
-#     model_pipeline = None
+try:
+    scaler = mlflow.sklearn.load_model(SCALER_PATH)
+    print("Scaler loaded successfully")
+    model = mlflow.sklearn.load_model(MODEL_PATH)
+    print("Model loaded successfully")
+except Exception as e:
+    print(f"Error loading model /scaler: {e}")
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Files in current directory: {os.listdir('.')}")
+    model_pipeline = None
 
 # Prometheus metrics for performance monitoring
 response_time_histogram = Histogram(
@@ -53,8 +77,8 @@ async def health_check():
 
 @app.post("/predict")
 async def predict(request: Request):
-    # if model_pipeline is None:
-    #     raise HTTPException(status_code=500, detail="Model pipeline not loaded properly")
+    if model_pipeline is None:
+        raise HTTPException(status_code=500, detail="Model pipeline not loaded properly")
 
     # Increment query counter for QPM calculation
     query_counter.inc()
@@ -67,7 +91,14 @@ async def predict(request: Request):
     start_time = time.time()
 
     data = await request.json()
-    df = pd.DataFrame(data, index=[0])
+    df = get_finance_df(COMPANY, request.start_date, request.end_date, STOCK_VAR)
+
+    if (len(df) <= request.seq_length+request.horizon+1):
+        raise Exception("Your dataset 'df' has less samples than the defined window size for data transformation, given by 'seq_length'")
+
+    X, _ = shift_drop_na_in_xy(df, COMPANY, COMPANY, horizon_pred=request.horizon)
+
+    y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler)
 
     time.sleep(0.1)
 
@@ -78,7 +109,7 @@ async def predict(request: Request):
     response_time_histogram.observe(response_time_s)
 
     # return {"prediction": prediction[0]}
-    return {"prediction": 0.5}
+    return {"prediction": json.dump(y_pred)}
 
 def monitor_drifts():
     # Simulating new data (in a real scenario, this would be actual new data)
