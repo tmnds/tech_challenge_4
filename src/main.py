@@ -27,30 +27,31 @@ import mlflow.sklearn
 COMPANY = 'PETR4.SA'
 STOCK_VAR = 'Adj Close'
 
-SCALER_PATH = 'artifacts/transformers/scalerX'
-MODEL_PATH = 'artifacts/models_tf/best_models'
+SCALER_PATH = 'src/artifacts/transformers/scalerX'
+MODEL_PATH = 'src/artifacts/models_tf/best_models'
 
 batch_size = 30
 
 class Request(BaseModel):
-    start_date: str
-    end_date: str
-    seq_length: int
-    horizon: int
+    end_date: str = Field(default='2024-11-15', min_length=10, max_length=10)
+    start_date: str = Field(default='2024-06-01', min_length=10, max_length=10)
+    seq_length: int = Field(default=30, gt=0)
+    horizon: int = Field(default=1, gt=0)
 
 app = FastAPI()
 
 # Load the model pipeline
 try:
-    scaler = mlflow.sklearn.load_model(SCALER_PATH)
-    print("Scaler loaded successfully")
     model = mlflow.sklearn.load_model(MODEL_PATH)
     print("Model loaded successfully")
+    scaler = mlflow.sklearn.load_model(SCALER_PATH)
+    print("Scaler loaded successfully")
 except Exception as e:
     print(f"Error loading model /scaler: {e}")
     print(f"Current working directory: {os.getcwd()}")
     print(f"Files in current directory: {os.listdir('.')}")
-    model_pipeline = None
+    print(f"Files in src directory: {os.listdir('./src')}")
+    model = None
 
 # Prometheus metrics for performance monitoring
 response_time_histogram = Histogram(
@@ -77,8 +78,8 @@ async def health_check():
 
 @app.post("/predict")
 async def predict(request: Request):
-    if model_pipeline is None:
-        raise HTTPException(status_code=500, detail="Model pipeline not loaded properly")
+    if model is None:
+        raise HTTPException(status_code=500, detail="Model not loaded properly")
 
     # Increment query counter for QPM calculation
     query_counter.inc()
@@ -90,7 +91,7 @@ async def predict(request: Request):
     # Start timer for response time
     start_time = time.time()
 
-    data = await request.json()
+    # data = await request.json()
     df = get_finance_df(COMPANY, request.start_date, request.end_date, STOCK_VAR)
 
     if (len(df) <= request.seq_length+request.horizon+1):
@@ -98,7 +99,7 @@ async def predict(request: Request):
 
     X, _ = shift_drop_na_in_xy(df, COMPANY, COMPANY, horizon_pred=request.horizon)
 
-    y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler)
+    y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler, model)
 
     time.sleep(0.1)
 
@@ -108,8 +109,16 @@ async def predict(request: Request):
     response_time_s = (time.time() - start_time)
     response_time_histogram.observe(response_time_s)
 
+    print(y_pred[0])
+    # print(y_pred[0][0])
+    # print(y_pred.shape)
     # return {"prediction": prediction[0]}
-    return {"prediction": json.dump(y_pred)}
+    # return {"prediction": json.dump(y_pred[0][0])}
+    offset = request.seq_length+request.horizon+1
+    keys = list(range(offset,offset+len(y_pred[0])))
+    print(keys[0])
+    return {"prediction": dict(zip(keys, y_pred[0])),
+            "input df": df.to_dict()}
 
 def monitor_drifts():
     # Simulating new data (in a real scenario, this would be actual new data)

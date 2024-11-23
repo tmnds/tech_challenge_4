@@ -1,7 +1,7 @@
 import numpy as np
 from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 
-def make_predictions(X, y, seq_length, batch_size, scaler):
+def make_predictions(X, y, seq_length, batch_size, scaler, model):
 
     generator = TimeseriesGenerator(X, y, length=seq_length, batch_size=batch_size)
 
@@ -14,5 +14,5 @@ def make_predictions(X, y, seq_length, batch_size, scaler):
         y_pred_scaled = model.predict(scaled_X)
         y_pred.append(scaler.inverse_transform(y_pred_scaled.reshape(-1,1)))
         
-    y_pred = np.concatenate(y_pred, axis=0 )
-    return y_pred
+    y_pred = np.concatenate(y_pred, axis=0)
+    return y_pred.reshape(1,-1).tolist()
