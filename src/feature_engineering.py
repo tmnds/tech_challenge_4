@@ -69,7 +69,13 @@ def split_train_test_valid_df(df, horizon_pred=1, seq_length=30, size_train_perc
         return (df_train, df_test)
 
 def shift_drop_na_in_xy(df, company_inputs, company_output, horizon_pred):
-    new_df = pd.concat([df[company_inputs], df[company_output].rename("target").shift(-horizon_pred)],axis='columns').dropna()
+    new_df = pd.concat([df[company_inputs], df[company_output].rename("target").shift(-horizon_pred+1)],axis='columns').dropna()
     X = new_df[company_inputs].values
     y = new_df["target"].values
     return X, y
+
+def get_xx_dropna(df, company_inputs):
+    df = df.dropna()
+    X = df[company_inputs].values
+    y = X
+    return X, X

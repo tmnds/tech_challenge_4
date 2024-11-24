@@ -7,3 +7,4 @@ venv*
 mlartifacts
 mlruns
 *zip
+*tmp
