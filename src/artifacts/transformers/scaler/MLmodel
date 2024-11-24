@@ -6,10 +6,10 @@ flavors:
     sklearn_version: 1.5.2
 mlflow_version: 2.17.2
 model_size_bytes: 522
-model_uuid: fe485530641d4f5e81fedbcfb385c130
+model_uuid: 0f06e2b11dd14267ab4a4a3b1a1f80b7
 signature:
-  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 1]}}]'
   outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
     1]}}]'
   params: null
-utc_time_created: '2024-11-20 17:35:12.480456'
+utc_time_created: '2024-11-24 02:00:57.743175'

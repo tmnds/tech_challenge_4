@@ -1,5 +1,10 @@
-from feature_engineering import get_finance_df
-from feature_engineering import split_train_test_valid_df, shift_drop_na_in_xy
+import sys
+import os
+from pathlib import Path
+sys.path.append(str(Path.cwd().parent))
+
+from src.feature_engineering import get_finance_df
+from src.feature_engineering import split_train_test_valid_df, shift_drop_na_in_xy
 
 from sklearn.preprocessing import MinMaxScaler
 
@@ -45,14 +50,13 @@ def parametrized_training(company_inputs, company_output, start_date, end_date, 
     X_test, y_test = shift_drop_na_in_xy(df_test, company_inputs, company_output, horizon_pred=horizon_pred)
 
     # Normalize the Price column
-    scalerX = MinMaxScaler()
-    scalery = MinMaxScaler()
+    scaler = MinMaxScaler()
 
-    scaled_X_train = scalerX.fit_transform(X_train)
-    scaled_y_train = scalery.fit_transform(y_train.reshape(-1, 1))
+    scaled_X_train = scaler.fit_transform(X_train, y_train)
+    scaled_y_train = scaler.transform(y_train.reshape(-1, 1))
 
-    scaled_X_test = scalerX.transform(X_test)
-    scaled_y_test = scalery.transform(y_test.reshape(-1, 1))
+    scaled_X_test = scaler.transform(X_test)
+    scaled_y_test = scaler.transform(y_test.reshape(-1, 1))
 
     # Initialize generator with multivariable input and single target
     generator_train = TimeseriesGenerator(scaled_X_train, scaled_y_train, length=seq_length, batch_size=batch_size)
@@ -60,4 +64,4 @@ def parametrized_training(company_inputs, company_output, start_date, end_date, 
 
     model = custom_lstm_model(seq_length, n_inputs, units1, activation1, kernel_reg_factor1, dropout_layer1, dense_mid_size, activation_out, optim)
 
-    return (scalerX, scalery, generator_train, generator_test, model)
+    return (scaler, generator_train, generator_test, model)

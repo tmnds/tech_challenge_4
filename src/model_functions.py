@@ -15,4 +15,4 @@ def make_predictions(X, y, seq_length, batch_size, scaler, model):
         y_pred.append(scaler.inverse_transform(y_pred_scaled.reshape(-1,1)))
         
     y_pred = np.concatenate(y_pred, axis=0)
-    return y_pred.reshape(1,-1).tolist()
+    return y_pred.reshape(1,-1)
