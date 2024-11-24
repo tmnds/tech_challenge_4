@@ -27,7 +27,7 @@ import mlflow.sklearn
 COMPANY = 'PETR4.SA'
 STOCK_VAR = 'Adj Close'
 
-SCALER_PATH = 'src/artifacts/transformers/scalerX'
+SCALER_PATH = 'src/artifacts/transformers/scaler'
 MODEL_PATH = 'src/artifacts/models_tf/best_models'
 
 batch_size = 30
@@ -35,7 +35,7 @@ batch_size = 30
 class Request(BaseModel):
     end_date: str = Field(default='2024-11-15', min_length=10, max_length=10)
     start_date: str = Field(default='2024-06-01', min_length=10, max_length=10)
-    seq_length: int = Field(default=30, gt=0)
+    seq_length: int = Field(default=20, gt=0)
     horizon: int = Field(default=1, gt=0)
 
 app = FastAPI()
@@ -99,7 +99,7 @@ async def predict(request: Request):
 
     X, _ = shift_drop_na_in_xy(df, COMPANY, COMPANY, horizon_pred=request.horizon)
 
-    y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler, model)
+    y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler, model).tolist()
 
     time.sleep(0.1)
 
