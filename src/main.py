@@ -18,7 +18,7 @@ from prometheus_client import make_wsgi_app, generate_latest, CONTENT_TYPE_LATES
 
 from src.data_drift import detect_data_drift
 from src.concept_drift import detect_concept_drift
-from src.feature_engineering import get_finance_df, shift_drop_na_in_xy
+from src.feature_engineering import get_finance_df, get_xx_dropna
 from src.model_functions import make_predictions
 
 import mlflow
@@ -97,7 +97,7 @@ async def predict(request: Request):
     if (len(df) <= request.seq_length+request.horizon+1):
         raise Exception("Your dataset 'df' has less samples than the defined window size for data transformation, given by 'seq_length'")
 
-    X, _ = shift_drop_na_in_xy(df, COMPANY, COMPANY, horizon_pred=request.horizon)
+    X, _ = get_xx_dropna(df, COMPANY)
 
     y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler, model).tolist()
 
@@ -114,7 +114,7 @@ async def predict(request: Request):
     # print(y_pred.shape)
     # return {"prediction": prediction[0]}
     # return {"prediction": json.dump(y_pred[0][0])}
-    offset = request.seq_length+request.horizon+1
+    offset = request.seq_length+request.horizon-1
     keys = list(range(offset,offset+len(y_pred[0])))
     print(keys[0])
     return {"prediction": dict(zip(keys, y_pred[0])),
