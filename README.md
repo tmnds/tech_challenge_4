@@ -139,6 +139,8 @@ Para deploy do modelo, foram utilizados 3 containers docker definidos em [docker
 
 A API, estruturada em [src/main.py](/src/main.py), faz uso de funções auxiliares definidas em [src/feature_engineering.py](/src/feature_engineering.py) para tratamento dos dados, conforme explicado acima, e em [src/model_functions.py](/src/model_functions.py).
 
+![containers](training_model/img/containers.png)
+
 ### Escalabilidade e Monitoramento
 
 O monitoramento e a escalabidade são tratados pelas ferramentas **Prometheus** e **Grafana**, que são executados nos seus respectivos containers de mesmo nome.
@@ -154,6 +156,7 @@ Entendemos que algumas melhorias poderiam ser implementadas nesta solução, sen
 * Adição de um novo caminho na API que realize, dada apenas 1 data válida, faça a predição de 1 passo a frente apenas para essa data (e não para um conjunto de dados, como está implementado).
 * Adição de um método que realiza a predição de `h` passos a frente (e não apenas 1), chamando o `model.predict` de forma "iterativa".
 * Criação de um novo modelo (ou de novos modelos / ensamble de modelos), visando melhorar a qualidade da predição `h` passos a frente, com `h` variando de `2` a `H`.
+* Melhorias de segurança no acesso ao Grafana (atualmente, usando `admin`/`admin`).
 
 
 
