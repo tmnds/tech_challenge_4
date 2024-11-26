@@ -2,9 +2,10 @@
 
 ## Overview da Solução
 
-Falar sobre o modelo e os objetivos que são atingidos.
+**Objetivo:**
+Realizar predição do preço de fechamento do ativo da Petrobrás (PETR4.SA) 1 passo a frente (próximo dia) usando LSTM. 
 
-### Requisitos
+### Requisitos para subir a API
 * Docker instalado.
 
 ### QuickStart
@@ -26,7 +27,51 @@ body = {
 
 ### Diretórios e Arquivos
 
-TREE
+```bash
+📦.
+├── Dockerfile
+├── README.md
+├── dashboard.json
+├── docker-compose.yml
+├── prometheus.yml
+├── requirements.txt
+├── src
+│   ├── artifacts
+│   │   ├── models_tf
+│   │   │   └── best_models
+│   │   │       ├── MLmodel
+│   │   │       ├── conda.yaml
+│   │   │       ├── model.pkl
+│   │   │       ├── python_env.yaml
+│   │   │       └── requirements.txt
+│   │   └── transformers
+│   │       └── scaler
+│   │           ├── MLmodel
+│   │           ├── conda.yaml
+│   │           ├── model.pkl
+│   │           ├── python_env.yaml
+│   │           └── requirements.txt
+│   ├── concept_drift.py
+│   ├── data_drift.py
+│   ├── feature_engineering.py
+│   ├── main.py
+│   ├── model_functions.py
+│   └── requirements.txt
+└── training_model
+    ├── Analysis.docx
+    ├── Experiment_Design.drawio
+    ├── README.md
+    ├── api_predict.ipynb
+    ├── img
+    │   ├── lstm_architecture.png
+    │   └── mlflow_champion.png
+    ├── parametrized_training_model.py
+    ├── predict.ipynb
+    ├── requirements.txt
+    ├── training_model.ipynb
+    ├── training_model_tf_grid_search.ipynb
+    └── validating_model.ipynb
+```
 
 ### Por dentro da API
 
@@ -74,8 +119,6 @@ Há um Jupyter Notebook contendo o exemplo de uso acima da API para que o usuár
 
 * `TimeseriesGenerator`: gera um conjunto de dados de treinamento aplicável ao cenário de séries temporais em modelos Auto-Regressivos (AR). Mais detalhes em [https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/sequence/TimeseriesGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/sequence/TimeseriesGenerator).
 
-DIAGRAMA DE BLOCOS DO PRE-PROCESSAMENTO
-
 ### Desenvolvimento do Modelo LSTM e Arquitetura Final
 
 O Desenvolvimento do modelo segue os passos descritos em em [training_model/READ.ME](/training_model/README.md) e em [training_model/Experiment_Design.drawio](/training_model/Experiment_Design.drawio). 
@@ -107,7 +150,7 @@ Já o Grafana é onde são criados e mantidos os Dashboards, onde as métricas l
 Entendemos que algumas melhorias poderiam ser implementadas nesta solução, sendo algumas delas:
 
 * Revisão das boas práticas de código para melhor implementação e organização das funções, métodos, classes, e chamadas na API, ou seja, aplicação dos princípios de *Clean Code*.
-* Adoção de testes automatizados para melhor qualidade e manutenção do código, como já feito em Tech Challenges anteriores: [tech-c-01-embrapa-api](https://github.com/chrysremes/tech-c-01-embrapa-api)
+* Adoção de testes automatizados e de loggings para melhor qualidade e manutenção do código, como já feito em Tech Challenges anteriores: [tech-c-01-embrapa-api](https://github.com/chrysremes/tech-c-01-embrapa-api)
 * Adição de um novo caminho na API que realize, dada apenas 1 data válida, faça a predição de 1 passo a frente apenas para essa data (e não para um conjunto de dados, como está implementado).
 * Adição de um método que realiza a predição de `h` passos a frente (e não apenas 1), chamando o `model.predict` de forma "iterativa".
 * Criação de um novo modelo (ou de novos modelos / ensamble de modelos), visando melhorar a qualidade da predição `h` passos a frente, com `h` variando de `2` a `H`.
