@@ -78,4 +78,4 @@ def get_xx_dropna(df, company_inputs):
     df = df.dropna()
     X = df[company_inputs].values
     y = X
-    return X, X
+    return X, y
