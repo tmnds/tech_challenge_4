@@ -6,6 +6,7 @@ import seaborn as sns
 import time
 import psutil
 import json
+from datetime import datetime
 
 from pydantic import BaseModel, Field
 
@@ -67,6 +68,9 @@ query_counter = Counter("predict_queries_total", "Total number of queries to the
 data_drift_gauge = Gauge("data_drift", "Data Drift Score")
 concept_drift_gauge = Gauge("concept_drift", "Concept Drift Score")
 
+# Prometheus Gauge for predictions
+prediction_gauge = Gauge("stock_prediction", "Predicted stock prices", ["day"])
+
 # Load reference data
 # diamonds = sns.load_dataset("diamonds")
 # X_reference = diamonds[["carat", "cut", "color", "clarity", "depth", "table"]]
@@ -117,8 +121,16 @@ async def predict(request: Request):
     offset = request.seq_length+request.horizon-1
     keys = list(range(offset,offset+len(y_pred[0])))
     print(keys[0])
+
+    df_dict = df.to_dict()
+
+    # Expor as previsões no Prometheus
+    for key, prediction in dict(zip(keys, y_pred[0])).items():
+        date_label = df_dict["Datetime"][key].strftime("%Y-%m-%d")
+        prediction_gauge.labels(day=date_label).set(prediction)
+    
     return {"prediction": dict(zip(keys, y_pred[0])),
-            "input df": df.to_dict()}
+            "input df": df_dict}
 
 def monitor_drifts():
     # Simulating new data (in a real scenario, this would be actual new data)
