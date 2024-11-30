@@ -1,5 +1,15 @@
 # TECH CHALLENGE 4 - PREVISÃO DE SÉRIES TEMPORAIS COM LSTM
 
+## Links Relacionados
+
+### Vídeo Explicativo
+
+[drive.google.com/file/d/14Fy8MxAd6wd6eiiRKPPazCwZDh0NJRYR/view](https://drive.google.com/file/d/14Fy8MxAd6wd6eiiRKPPazCwZDh0NJRYR/view)
+
+### Repositório (GitHub)
+
+[github.com/tmnds/tech_challenge_4](https://github.com/tmnds/tech_challenge_4)
+
 ## Overview da Solução
 
 **Objetivo:**
