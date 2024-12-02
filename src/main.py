@@ -17,8 +17,6 @@ from fastapi.middleware.wsgi import WSGIMiddleware
 from apscheduler.schedulers.background import BackgroundScheduler
 from prometheus_client import make_wsgi_app, generate_latest, CONTENT_TYPE_LATEST
 
-from src.data_drift import detect_data_drift
-from src.concept_drift import detect_concept_drift
 from src.feature_engineering import get_finance_df, get_xx_dropna
 from src.model_functions import make_predictions
 
@@ -71,11 +69,6 @@ concept_drift_gauge = Gauge("concept_drift", "Concept Drift Score")
 # Prometheus Gauge for predictions
 prediction_gauge = Gauge("stock_prediction", "Predicted stock prices", ["day"])
 
-# Load reference data
-# diamonds = sns.load_dataset("diamonds")
-# X_reference = diamonds[["carat", "cut", "color", "clarity", "depth", "table"]]
-# y_reference = diamonds["price"]
-
 @app.get("/health")
 async def health_check():
     return {"status":"OK"}
@@ -106,18 +99,11 @@ async def predict(request: Request):
     y_pred = make_predictions(X, X, request.seq_length, batch_size, scaler, model).tolist()
 
     time.sleep(0.1)
-
-    # prediction = model_pipeline.predict(df)
     
     # Calculate response time in milliseconds and observe it in the histogram
     response_time_s = (time.time() - start_time)
     response_time_histogram.observe(response_time_s)
-
     print(y_pred[0])
-    # print(y_pred[0][0])
-    # print(y_pred.shape)
-    # return {"prediction": prediction[0]}
-    # return {"prediction": json.dump(y_pred[0][0])}
     offset = request.seq_length+request.horizon-1
     keys = list(range(offset,offset+len(y_pred[0])))
     print(keys[0])
@@ -132,41 +118,12 @@ async def predict(request: Request):
     return {"prediction": dict(zip(keys, y_pred[0])),
             "input df": df_dict}
 
-def monitor_drifts():
-    # Simulating new data (in a real scenario, this would be actual new data)
-    new_diamonds = sns.load_dataset("diamonds").sample(n=1000, replace=True)
-    X_current = new_diamonds[["carat", "cut", "color", "clarity", "depth", "table"]]
-    y_current = new_diamonds["price"]
-
-    # Data drift detection
-    is_data_drift, _, data_drift_score = detect_data_drift(X_reference, X_current)
-    data_drift_gauge.set(data_drift_score)
-
-    # Concept drift detection
-    is_concept_drift, concept_drift_score = detect_concept_drift(
-        model_pipeline,
-        X_reference,
-        y_reference,
-        X_current,
-        y_current,
-    )
-    concept_drift_gauge.set(concept_drift_score)
-
-    if is_data_drift:
-        print("Data drift detected!")
-    if is_concept_drift:
-        print("Concept drift detected!")
 
 # Mount Prometheus metrics endpoint
 @app.get("/metrics")
 async def get_metrics():
     return Response(generate_latest(),media_type=CONTENT_TYPE_LATEST)
 
-
-# Schedule drift monitoring
-# scheduler = BackgroundScheduler()
-# scheduler.add_job(monitor_drifts, "interval", minutes=1)
-# scheduler.start()
 
 if __name__ == "__main__":
     # Start Prometheus metrics server
